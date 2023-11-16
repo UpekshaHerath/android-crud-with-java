@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.ItemInfoForm">
+
+    <TextView
+        android:id="@+id/tv_fm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_fm_title" />
+
+    <EditText
+        android:id="@+id/et_fm_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fm_title"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_box"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tv_fm_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_fm_title"
+        android:layout_marginTop="23dp"
+        android:text="@string/tv_fm_description" />
+
+    <EditText
+        android:id="@+id/et_fm_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fm_description"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_box"
+        android:maxLength="75"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tv_fm_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fm_description"
+        android:layout_marginTop="22dp"
+        android:text="@string/tv_fm_price" />
+
+    <EditText
+        android:id="@+id/et_fm_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fm_price"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_box"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btn_fm_update"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fm_price"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/btn_fm_update" />
+
+    <Button
+
+        android:id="@+id/btn_fm_delete"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fm_price"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/btn_fm_delete" />
+
+    <Button
+        android:id="@+id/btn_fm_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fm_price"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:text="@string/btn_fm_add"
+        android:visibility="gone" />
+
+</RelativeLayout>

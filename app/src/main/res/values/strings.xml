@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">THA_APP_204074M</string>
+    <string name="image_description">Image Description</string>
+    <string name="item_title">Title</string>
+    <string name="item_description">Item Description</string>
+    <string name="item_price">Item Price</string>
+    <string name="btn_text">Edit</string>
+    <string name="float_btn_content">Content Description</string>
+    <string name="tv_fm_title">Item Name</string>
+    <string name="tv_fm_description">Item Description</string>
+    <string name="tv_fm_price">Item Price</string>
+    <string name="btn_fm_update">Update</string>
+    <string name="btn_fm_delete">Delete</string>
+    <string name="btn_fm_add">Add</string>
+</resources>
